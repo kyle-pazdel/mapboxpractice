@@ -60,4 +60,5 @@ target 'mapboxpractice' do
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
     $RNMapboxMaps.post_install(installer)
   end
+  pod 'react-native-mapbox-gl', :path => '../node_modules/@react-native-mapbox-gl/maps'
 end
